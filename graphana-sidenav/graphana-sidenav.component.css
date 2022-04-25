@@ -1,0 +1,26 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.mat-drawer-content {
+  overflow-y: scroll;
+}
+
+.sidenav {
+  width: 200px;
+  position: absolute;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+a:hover {
+  color:greenyellow;
+}

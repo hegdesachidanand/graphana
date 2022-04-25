@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 30px;
+}
+
+#actions {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+#actions > * {
+    margin: 10px;
+}

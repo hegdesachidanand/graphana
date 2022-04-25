@@ -1,0 +1,12 @@
+<form (submit)="validate()">
+    <h1>Token Validation</h1>
+    
+    <mat-form-field>
+      <mat-label>Token</mat-label>
+      <input matInput type="password" name="token" [(ngModel)]="token">
+    </mat-form-field>
+    <mat-error *ngIf="error">{{ error }}</mat-error>
+    <div id="actions">
+      <button mat-raised-button color="primary" type="submit">Validate</button>
+    </div>
+  </form>

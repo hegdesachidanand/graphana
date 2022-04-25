@@ -1,0 +1,24 @@
+<form (submit)="saveMetrics()" [formGroup]="metricsForm" action="">
+    <h1>Update Metrics Data</h1>
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input readonly matInput type="text" name="title" formControlName="title" placeholder="Title">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Value</mat-label>
+      <input matInput type="text" name="value" formControlName="value" placeholder="Value">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Columns</mat-label>
+      <input matInput type="number" name="cols" formControlName="cols" placeholder="Columns">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Rows</mat-label>
+      <input matInput type="number" name="rows" formControlName="rows" placeholder="Rows">
+    </mat-form-field>
+    
+    <div id="actions">
+      <button mat-raised-button color="primary" type="submit">Save Metrics</button>
+      
+    </div>
+  </form>
